@@ -1,0 +1,41 @@
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 20px;
+  /* border: 1px solid #000; */
+}
+
+.add-task-input {
+  margin-right: 20px;
+  width: 100%;
+  padding: 15px 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+  .input-container {
+    width: 70%;
+    margin-bottom: 14px;
+  }
+
+  .add-task-input {
+    margin-right: 14px;
+    
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .input-container {
+    width: 95%;
+    margin-bottom: 14px;
+  }
+
+  .add-task-input {
+    margin-right: 10px;
+  }
+}

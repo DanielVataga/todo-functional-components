@@ -1,0 +1,18 @@
+.add-task-button {
+  width: 150px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #000;
+  transition: 0.2s ease;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.add-task-button:hover{
+  transform: scale(1.04);
+}

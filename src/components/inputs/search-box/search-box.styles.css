@@ -1,0 +1,28 @@
+.search-box-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 15px 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+  .search-box-wrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .search-box-wrapper {
+    width: 95%;
+  }
+}

@@ -1,0 +1,40 @@
+.task-wrapper {
+  width: 50%;
+}
+
+.task {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s ease;
+  margin: 12px 0;
+  position: relative;
+}
+
+.task:hover {
+  transform: scale(1.02);
+}
+
+.task .checkbox, .name {
+  margin-right: 15px;
+}
+
+.not-done {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 1000px) {
+  .task-wrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .task-wrapper {
+    width: 95%;
+    font-size: 12px;
+  }
+}
